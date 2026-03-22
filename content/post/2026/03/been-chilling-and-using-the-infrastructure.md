@@ -2,7 +2,7 @@
 title: "Been Chilling and Using the Infrastructure"
 date: 2026-03-18T10:18:47-04:00
 author: Matthew Maurer [maurerit](https://github.com/maurerit)
-draft: true
+draft: false
 ---
 
 The past few days I've been letting r3r4um sit idle most of the time.  I want to build up credits for a big todo item push and I'm also just burnt out.  I can really only handle so much information flowing into my brain and these LLM's throw out a lot of tokens that need validated.  I'm still torn if I'm more productive with them or if I am indeed losing a part of myself that I so enjoy.
