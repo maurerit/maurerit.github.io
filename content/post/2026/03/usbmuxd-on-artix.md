@@ -1,7 +1,16 @@
 ---
-title: "Usbmuxd on Artix"
+title: "iPhone Tethering on Artix"
 date: 2026-03-26T08:20:46-04:00
 author: Matthew Maurer [maurerit](https://github.com/maurerit)
-draft: true
+draft: false
 ---
 
+I was spoiled on CachyOS because from first boot I was able to plug my iPhone into my laptop and it would instantly tether and ask me if I wanted to open the devices file system or import photos from the camera.  I did nothing to get this to happen so I never thought anything of it.  I just went on with life and used the feature.  Fast forward a few months and I've now grown tired of systemd and their constant need to but in everywhere.  To be honest, it's the whole age verification thing.  I don't agree and will not comply but that's a conversation for another day and another blog...  So I went searching for a distro I would like that uses openrc.  My search revealed a few good candidates but I settled on Artix.
+
+Artix is Arch but without systemd.  They let you choose between runit, openrc, s6 and dinit.  I have only heard of openrc so that's what I went with.  Open installing and getting a desktop environment I was off to the races.  So I went to the park last night with my son and was just going to putter around on the computer while he played with his friends.  So I plug my iPhone into the laptop fullly expecting it to recognize the device and tether but nothing happened...  The phone started charging but the laptop just sat there, as if nothing was plugged in or it had nothing to do.  Dissappointed I hooked myself up to the wifi hotspot and began searching.
+
+I think my first search was `iPhone usb tethering` or something similar.  I can't remember my exact path but I know I landed on usbmuxd fairly quickly which then pushed me down the path of searching Artix for this package and then an openrc package for the init script of my choosing.  No init script in the repos so again I went searching.  This one took me awhile but I eventually just gave up, saw that the Artix PKGBUILD pulled in a specific commit which was at least 2 years ago so I went to the [linked page](https://marcansoft.com/blog/iphonelinux/usbmuxd/) and was presented with an interesting individual.  After some time browsing this persons accomplishments I went about following the link to the now live repo managed by the libimobiledevice team.  Curious, I went searching through the PR's and found [this PR](https://github.com/libimobiledevice/usbmuxd/pull/227) which showed me what someone, at least partially familiar with the project, thinks the openrc init script should look like.
+
+I capture the contents and put it in `/etc/init.d/usbmuxd` and `sudo rc-update add usbmuxd` and `sudo rc-service usbmuxd start` but I get a failure.  Tired for the night I crash out and figure I'll get to it in the morning or some other time.  So this morning rolls around and I just can't help myself.  I gotta get this working so I break from my manual work and ask r3r4 what a good openrc usbmuxd script might look like.  Seeing a couple properties he set and then looking at mine I notice again that there are replacement variables in there... I figured this was an openrc thing when I captured the source.  Turns out the makefile replaces these so you can customize them I guess?  So I replace them and fire up the service, plug my iPhone in and it works!  I turn the hotspot on and the laptop instantly joins the network.
+
+Mission accomplished!
