@@ -1,0 +1,18 @@
+---
+title: "Lets Not Slop Up the World"
+date: 2026-06-03T13:23:42-04:00
+author: Matthew Maurer [maurerit](https://github.com/maurerit)
+draft: false
+---
+
+I've been doing the 'boring work' at work but it's always necessary otherwise you just fall so far behind that upgrading to the latest libraries is such a hassle that you give up and let the app atrophy.  So, while waiting on builds and tests and webpages to respond I've been reading a few more articles to keep ME current and keep ME in the know.  With that, I ran across a medium article (sorry, it's not free otherwise I'd link it) talking about vibe coding and how it won't be going away, how it's polluting the web, how it's causing us to burn hotter, how we should be controlling that burn and using the extra time to truly think about what we're doing.  We have a golden opportunity here to not get stuck in the weeds.  Where we can pull back, get things done, define direction easier and then execute on that direction faster.
+
+Shipping as fast as some people are shipping today is absurd.  Not only are you being greedy with our natural resources but you're producing crap... then coming back and polishing those turds (maybe) unless you just keep shoving crap into the pipeline.  So, my take away from this article so far is one statement "Use that extra saved time no to do MORE stuff. Use it to make better stuff.".  Really hits the name on the head if you ask me.  Take my [eve-market-calc](https://git.r3r4um.online/r3r4um/eve-market-calc) project that I've been AI'ing into existence.  I've been having the AI translate my jibber jabber with it into workable specs and then reviewing those myself to make sure they make sense, having the AI review it again to make sure it meshes with the current code base and then finally approving the spec and moving it into the pipeline.
+
+I refuse to let go completely, I see myself as an architect in this adventure and it's been working out great.  I just had a nice sized spec that I kept looking at and thinking "One agent run is not going to do a very good job with this" so I had the AI break it up into multiples... it became 10 issues dividing across the different layers and while implementing some I noticed some issues and then split another up into like 3 and created one new one.  It took me a week to chew through it and I wasn't able to see what was happening at each step... every day and every small spec I grew more and more nervous.  While I have built up trust with these LLM's that doesn't take away that they can really do some crap things to your code base.  So finally the day came, and I was nervous because at the end I did let the AI do more with the specs and I reviewed them less vigorously (that explains my anxiety) and I had to deploy it.  I had database migrations that needed executed, new secrets to get put into place and then the simple deploy into the cluster.  I reviewed the playbook that the AI kicked out for me and it seemed sound so I started executing it by hand.  The deploy was a success with only a few minor bugs that were worked out within a couple of days :D.
+
+I've been trying to live this statement that I found for awhile now.  I recognized that we could do more but I still wanted to publish something nice so I've toiled over the code, got into it myself a bit to get some familiarity with it and paid attention to what the AI was doing.
+
+I should link it in case you want to read it and have a Medium subscription: https://michalmalewicz.medium.com/vibe-coding-is-over-5a84da799e0d
+
+Ship better not faster!
