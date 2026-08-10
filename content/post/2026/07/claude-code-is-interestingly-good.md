@@ -2,14 +2,14 @@
 title: "Claude Code Is Interestingly Good but yet not..."
 date: 2026-07-02T03:53:22-04:00
 author: Matthew Maurer [maurerit](https://github.com/maurerit)
-draft: true
+draft: false
 ---
 
-I've been using Claude Code for about two weeks now, just testing what it can do with its memory, its inherent skills, and with superpowers. I have to say that it’s quite good. I don’t think I need the memory because my workflow is very simple, but it’s kind of nice. Would I compare it to Hermes or my install of OpenClaw’s memory? No way, not even close. But it somehow lets me use some shorthand.
+I've been using Claude Code for about two weeks now, just testing what it can do with its memory, its inherent skills, and with superpowers. I have to say that it’s quite good. I don’t think I need the memory because my workflow is very simple, but it’s kind of nice. Would I compare it to Hermes or my install of OpenClaw’s memory? No way, not even close. But it somehow lets me use some shorthand and it accepted my initial demands and remembered them.
 
-Now, I have customized its prompt so that it knows to use Gitea over GitHub, and somehow it knows where my project lives. I’m not sure if it’s inferring this from the remote in the Git repo or if it stored it in memory. I also haven’t tested it the way I have Hermes with infrastructure work, because I don’t view it as my infrastructure agent like I do Gippity. I’ve found Gippity to be far superior at infrastructure work. Claude built my infrastructure, though, via GitHub Copilot and OpenClaw. OpenClaw remains my go‑to infrastructure harness; I spent a lot of time on that agent’s brain, so it knows where everything is and how to get in.
+Now, I have customized its prompt so that it knows to use Gitea over GitHub, and somehow it knows where my project lives. I’m not sure if it’s inferring this from the remote in the Git repo or if it stored it in memory. I also haven’t tested it the way I have Hermes with infrastructure work, because I don’t view it as my infrastructure agent like I do OpenClaw. I’ve found Gippity in OpenClaw to be far superior at infrastructure work. Claude built my infrastructure, though, via GitHub Copilot and OpenClaw. OpenClaw remains my go‑to infrastructure harness; I spent a lot of time on that agent’s brain, so it knows where everything is and how to get in.
 
-2026-07-19 Update
+## 2026-07-19 Update
 
 Claude Code wasn’t that great; I’ve come to realize that it’s doing A LOT to make Claude useful. Claude, outside of Claude Code, is far inferior to Chat Gippity in the same tool. I feel like Claude needs a ton of context engineering to be less wreckless, whereas Gippity just does things that make sense and is careful about what it does.  Such as eating up secrets...
 
@@ -17,4 +17,8 @@ I’ve switched to using Pi, but I’m in the process of ripping out omo from Op
 
 It’s not that Opencode is completely superior; I don’t want you to think I’m some kind of elitist, but there’s one feature I have to have when interacting with an LLM… and that’s the ability to scroll back **and** respond without my screen flashing, going to the prompt, and losing my spot while reviewing the LLM’s output. Claude Code, Opencode, and the Hermes --tui all do this beautifully, and I haven’t even noticed the issues I’d heard about with Claude Code and its wonky scroll‑back implementation. It’s just worked so far.
 
-So, overall, is Claude Code a good harness? Sure, it’s got some niceties. It’s smooth and quick to boot, has some built‑in safety (maybe a bit too much), and is easy on the eyes with decent text rendering to help you read the document that’s being presented. I don’t like that it hides the “thoughts” of the LLM, though; those are fun to read while you’re waiting on the slot‑machine to spin. I also don’t like the vendor lock‑in that Anthropic is trying to normalize again. Very reminiscent of Apple’s walled garden.
+So, overall, is Claude Code a good harness? Sure, it’s got some niceties. It’s smooth and quick to boot, has some built‑in safety (maybe a bit too much), and is easy on the eyes with decent text rendering to help you read the document that’s being presented. I don’t like that it hides the “thoughts” of the LLM, though; those are fun to read while you’re waiting on the slot‑machine to spin. I also don’t like the vendor lock‑in that Anthropic is trying to normalize again. Very reminiscent of Apple’s walled garden which is really the only thing I hate about Apple products.
+
+## August 10th update
+
+I've been back in opencode since soon after that 19th update and I am not looking back.  I'm loving it so much (using gippity) that I've just decided to cancel my claude sub.  It's just not good enough for what I'm doing.  Too wreckless and not thought out enough for my liking.  I had cancelled the sub a few days before last months installment but then the day before it actually cancelled I resubbed because I thought... MAYBE I'll use it for another month to give it more of a chance... but I was just loving my opencode with gippity setup so much more that I never even thought about using it... I've consumed all of about 4% of 1 weeks usage out of this month and it's for sure cancelled now.
