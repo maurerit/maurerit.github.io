@@ -1,0 +1,22 @@
+---
+title: "Did I Fall Behind?"
+date: 2026-08-10T04:43:18-04:00
+author: Matthew Maurer [maurerit](https://github.com/maurerit)
+draft: false
+---
+
+As I've said in these pages, I started using some agentic ai workflows last year around May I guess but I only really used it through my Cursor trial and then a bit in vs code for tweaks and experimentation.  I then laid off the agentic work as they were just not all that great.  They were fiddly and couldn't follow a large spec but vibe coding was like pulling on a slot machines handle...  I didn't consider them worth the hassle beyond simple proofs of concepts...
+
+I didn't really follow the models after Sonnet 3.5 until 4.5 and never really gave gippity a run for it's money back then so have no clue how good or bad IT was but sonnet was just so so with any kind of large context work.  I had a small GitHub CoPilot subscription because you needed one for code suggestions and I have grown accustomed to these being available.  I believe that function is now free up to like 2000 suggestions a month?  Something like that I think, can't find it right now and I don't feel like digging for facts...  But I digress, these things didn't prove to me that they were worth my time so I gave up on the dream of computers writing code for me.  Reading my posts from September of last year (the playing with spec kit series) I don't understand how these things even survived...
+
+After that spec kit adventure I only used these things for the the knowledge they have baked into their parameters.  They really can spit out some gold as far as tech related questions are concerned.  This is how I used them until February of this year.  So, for a good solid 5 months I did 0 agentic work and didn't have the mental energy to try again.  Then openclaw went viral and I again grew curious as people were having fun with these models again it seemed.  This thing went super viral and apparently the author was working on it during the time I was trying spec kit, just building it up in claude code one vibe at a time...  I really need to learn some day what claude code did differently in 2025 than other harnesses because people seem to have been using it since earlier that year...
+
+This got me thinking about LLM's differently.  Like, I had put together what a harness is, what a tool call is, and generally how these things worked.  What I hadn't fully grasped was how MCP works but figure it was some kind of 'pluggable tool' so I wasn't far off.  I didn't have any good thoughts on what kind of MCP servers I would want but I could imagine their power.  I also didn't realize that copilot was absolute rubbish... it would take me far too long to figure this out... AND I didn't know what else out there harnessed LLM's and gave them tools...  I should have been more curious because part of my issue with spec kit could have very well been issue's with vs code's copilot plugin...
+
+So, at this point, I've lost at least 5 months of experimentation... did I fall too far behind?  Or were things shifting so hard in those 5 months that I would have come out the other end burnt like a crisp trying to keep up?  I've now been experimenting for the past 6 months and what I've accomplished is pretty amazing... Of course _I_ didn't accomplish a damn thing... I was merely the vision behind the execution.  So, six months in and I've experimented with a few workflows having finally settled on opencode with superpowers.  Would I have come to this conclusion much sooner and therefore had more time before the inevitable meltdown?  Meh, if openai melts down in 6 months I'll be mostly done with this app and can be happy just using it and slowly tweaking it myself...
+
+So, did I fall behind?  Potentially because I didn't discover agentic work completely until my stint with Cursor last May or so and I don't recall thinking of using it as my infrastructure admin because back then I only had one working computer and it was a laptop that wasn't always on.
+
+The reason I feel like I fell behind is because there are quite a few people that have moved so freaking fast with AI that they've built things that have made them money... have they survived prolonged deployment... I don't know because the hype is dying down and the doomsayers have come out of the woodwork calling for all of this to come crashing down.
+
+We'll soon see I suppose.  Until then, I'm burning gas to build an opensource app for a niche game, lol.  It'll help me make money... but it's not real :D.
