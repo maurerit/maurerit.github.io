@@ -2,7 +2,7 @@
 title: "Im a Generalist"
 date: 2026-08-19T10:23:52-04:00
 author: Matthew Maurer [maurerit](https://github.com/maurerit)
-draft: true
+draft: false
 ---
 
 I'm getting back into my other team at work (I bounce between two teams currently) and I'm rebuilding context that matters (to put it like an LLM, lol) and I'm realizing something...  I have a lot of pointers to a lot of different things but I very rarely maintain the full knowledge of what that thing is or exactly how it works.
