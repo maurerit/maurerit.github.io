@@ -1,0 +1,24 @@
+---
+title: "Im a Generalist"
+date: 2026-08-19T10:23:52-04:00
+author: Matthew Maurer [maurerit](https://github.com/maurerit)
+draft: true
+---
+
+I'm getting back into my other team at work (I bounce between two teams currently) and I'm rebuilding context that matters (to put it like an LLM, lol) and I'm realizing something...  I have a lot of pointers to a lot of different things but I very rarely maintain the full knowledge of what that thing is or exactly how it works.
+
+Like, for instance, we've abstracted something away and then haven't properly documented it or maybe haven't promoted it to a place it should actually live.  I knew this concept existed but I've been out of this space long enough (I think something like 4 or 5 months now) that I've lost my memory about that one specific thing and where we put it and how we use it to relate to other parts of the system.
+
+I am also noticing this in just everything I do, like I was talking to my wife today about the history of AI and how the AI that we have now isn't really new, its just that LLM's are a different type of this one specific thing and I went on this history lesson of NVidia and basically how they 'came to power' and what that meant for AI models.
+
+This then got me thinking about this whole 'mixture of experts' thing we have going on now... are these neural nets from things like image recognition models and text to speech models and I don't even know what other models exist but I know the number has to be pretty large... so what I was merely calling LLM's have now grown to be much more general and include models from other domains entirely?
+
+But then I'm corrected by chat gippity that that is not at all what they are and that MoE is kind of a misnomer but yet not.  They're not experts in like I'm thinking about but instead they're still just llm sections that have 'specialized' in certain subjects.  They're not specialists so to speak but they have picked up considerable 'knowledge' in their area's.  Kind of messy but it mirrors our own brains in many ways.
+
+I write a little bit of go code from time to time.  In ways it's my language of choice anymore and really kind of has been since the bot from 2017 but I haven't really had that many side projects since then, I think like 2 maybe?  Two that were meaningfully occupying my a portion of my brain at least.  And they're both... oh no, it was 3... but still it was 3 parts of the whole that has been in my head since 2014 and the third IS that system thanks to these LLM's...
+
+Anyways, all this to say that at work I'm just a generalist.  Not sure if it's by design (it would be smart if it were) but it is definitely playing out that way.  And that way is the way of having no singular vaults of information in individuals heads.  We're distributing our knowledge better than what has happened in the past.  This is both a blessing and a curse.  A blessing because any one person leaving the org doesn't spell doom for our support cycle... a curse because it's harder to find the right key decision or quirk of the system because you have to hit up more people for the information or hope that the senior in the area has that knowledge.
+
+Me, I've worked in something like 147 different 'applications'.  They're not all big applications because they're individual services of a single overarching application but they're apps in their own right because they have their own lifecycle, means of communicating and deployment quirks.  They're own data models and maybe even their own database.  Gone are the days of the monolithic database with 500 tables.  Each service is fairly easy to consume and manipulate and deploy and that leads to generalists like myself fitting right in and be able to be productive like the first day.  I think I had a PR opened in 2 days from starting?  Something like that... it was way off because I went off the deepend and didn't know exactly how an underlying library worked and I just had assumed it was far simpler than it was... but alas, I at least understood a good portion of that service all within a day or so of coming on board.  And after making this mistake I had an even larger understanding of the service AND of how the team operates.
+
+So anyways, I really don't know where I was going with this, just kind of rambling on about where I am currently in my career.  Don't remember the point I was trying to make or the idea I was trying to convey outside of what I've said on this page.  So I'll cut this off here and try to think of a new subject for these pages.  Things have slowed way down from their heyday this spring, lol.
