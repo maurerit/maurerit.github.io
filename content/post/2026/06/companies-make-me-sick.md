@@ -2,7 +2,7 @@
 title: "Companies Make Me Sick"
 date: 2026-06-25T09:50:59-04:00
 author: Matthew Maurer [maurerit](https://github.com/maurerit)
-draft: false
+draft: true
 ---
 
 Yes, pretty much all of them.  There was a time in our history when the workers mattered and weren't treated like slave labor.  Here we are, struggling to keep up, medical bills rising, insurance rising, taxes rising, electricity rising due to AI and a plethora of other problems.  Meanwhile we have someone who is worth 1 trillion dollars and many others who are worth well over 100 billion...  Companies raking in 60, 132, 112, and 101 billion in profits but yet they can't give a decent sized bonus to their employee's... What do they spend it on?  CEO bonus', AI Datacenters and chips, some to R&D... monitoring their employee's every keystroke, invading our privacy at every turn and harvesting all of our data.  Meanwhile we have a push to gather all of our biometrics into web apps that will most assuredly be hacked and that data leaked... monitoring where we drive, where we play in a park and any number of other privacy intrusions and we're just supposed to eat it?  Us... the consumer...
